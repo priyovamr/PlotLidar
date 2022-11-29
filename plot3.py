@@ -37,7 +37,6 @@ for i in range(360):
         data.append(num) # add int to data list
 ser.close()
 
-
 fig = plt.figure()
 ax = plt.subplot(111, projection='polar')
 line = ax.scatter([0, 0], [0, 0], s=5, c=[IMIN, IMAX],
@@ -47,7 +46,6 @@ ax.grid(True)
 
 ani = animation.FuncAnimation(fig, update_line,
     fargs=(data, line), interval=50)
-ax.plot(np.deg2rad(inc), data)
 plt.xlabel('Angle')
 plt.ylabel('Distance')
 plt.title('LIDAR 360 Sensor')
