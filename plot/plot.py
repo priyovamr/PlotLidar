@@ -8,8 +8,7 @@ ser = serial.Serial('COM17', 9600, timeout=1)
 time.sleep(2)
 
 data = []
-
-
+# Ubah
 inc = []
 # for i in range(0,360):
 #     inc.append(i)
