@@ -9,6 +9,7 @@ time.sleep(2)
 
 data = []
 
+
 inc = []
 # for i in range(0,360):
 #     inc.append(i)
