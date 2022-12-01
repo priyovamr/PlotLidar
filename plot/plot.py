@@ -13,6 +13,7 @@ inc = []
 # for i in range(0,360):
 #     inc.append(i)
 
+
 for i in range(360):
     line = ser.readline()   # read a byte string
     if line:
